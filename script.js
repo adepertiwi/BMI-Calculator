@@ -9,7 +9,7 @@ function calculateBMI() {
 
         if (BMI < 18.5) {
             category = "Underweight";
-        } else if (BMI >= 18.5 && BMI <= 14.9) {
+        } else if (BMI >= 18.5 && BMI <= 24.9) {
             category = "Normal Weight";
         } else if (BMI >= 25 && BMI <= 29) {
             category = "Overweight";
