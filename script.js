@@ -18,7 +18,7 @@ function calculateBMI() {
         }
 
         const resultElement = document.getElementById("result");
-        resultElement.innerHTML = `Your BMI is ${BMI.toFixed(2)} which means You are ${category}`;  
+        resultElement.innerHTML = `Your BMI is <b>${BMI.toFixed(2)}<b/> which means You are <b>${category}<b/>`;  
     
     } else {
         alert("Enter your weight and height correctly!");
